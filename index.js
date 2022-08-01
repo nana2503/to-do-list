@@ -4,7 +4,7 @@ const currentTask = document.querySelector("#tasks-list")
 const historyTask = document.querySelector("#history-list")
 addBtn.addEventListener('click', () => {
     if (taskText.value !== "") {
-        currentTask.innerHTML += `<li> ${taskText.value} <button type="button" class="btn btn-danger" style="margin-left: 50%">X</button></li>`
+        currentTask.innerHTML += `<li style="margin-bottom: 5px"> ${taskText.value} <button type="button" class="btn btn-danger" style="margin-left: 10%; padding: 0 10px;">X</button></li>`
         taskText.value = ""
     } else {
         return "";

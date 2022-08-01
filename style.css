@@ -8,14 +8,29 @@
 
 html body {
     font-family: 'Dosis', sans-serif;
+    background-color: #d9e4f5;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
 }
 
 .container-fluid .input-to-do-list .title p {
     margin: 5px;
+    background-image: linear-gradient(to right, #EC4899, #8B5CF6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
 }
 
 .container-fluid .input-box .input-group {
     width: 50%;
+}
+
+.container-fluid .input-box .input-group .btn-outline-secondary {
+    background-image: linear-gradient(to right, #EC4899, #8B5CF6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
 }
 
 .container-fluid .task-list  {
@@ -25,16 +40,18 @@ html body {
 
 .container-fluid .task-list .task-to-do {
     width: 50%;
-    height: 99vh;
-    background-color:#90EE90;
+    height: 50vh;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
     border-radius: 10px;
     margin-right: 10px;
     padding: 20px;
 }
 .container-fluid .task-list .history-task{
     width: 50%;
-    height: 99vh;
-    background-color:#87CEFA;
+    height: 50vh;
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
     border-radius: 10px;
     padding: 20px;
 }
