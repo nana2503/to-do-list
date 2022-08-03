@@ -9,6 +9,8 @@
 html body {
     font-family: 'Dosis', sans-serif;
     height: 600px;
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
 }
 
 .container {
@@ -40,10 +42,19 @@ html body {
     font-weight: 700;
     outline: none;
 }
+.container .task-list .task-to-do .btn-outline-secondary {
+    margin-left: 59%;
+    background-image: linear-gradient(to right, #EC4899, #8B5CF6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: transparent;
+}
 
 .container .task-list .task-to-do {
-    width: 50%;
-    margin-left: 25%;
+    width: 62%;
+    margin-left: 19%;
     height: 50vh;
     background-color: #eec0c6;
     background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
