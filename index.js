@@ -9,10 +9,6 @@ addBtn.addEventListener('click', () => {
     let newItem = taskText.value
     todoList.push(newItem)
     let getLocal = localStorage.getItem("todo")
-    let parseJS = JSON.parse(getLocal)
-    parseJS.forEach((abc) => {
-        console.log(abc);
-    })
     if (newItem !== "") {
         currentTask.innerHTML += `<li style="margin-bottom: 5px"> ${newItem} 
                                     <button type="button" class="btn btn-danger" style="margin-left: 10%; padding: 0 10px;">X</button>
